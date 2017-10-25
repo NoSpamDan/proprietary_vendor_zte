@@ -314,17 +314,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/zte/axon7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zte/axon7/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/zte/axon7/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zte/axon7/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zte/axon7/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zte/axon7/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/zte/axon7/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zte/axon7/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/zte/axon7/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/zte/axon7/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/zte/axon7/proprietary/bin/radish:system/bin/radish \
-    vendor/zte/axon7/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/zte/axon7/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/zte/axon7/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zte/axon7/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/axon7/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -345,8 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/zte/axon7/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/zte/axon7/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/zte/axon7/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/zte/axon7/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/zte/axon7/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/zte/axon7/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/zte/axon7/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
@@ -368,13 +361,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zte/axon7/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/zte/axon7/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/zte/axon7/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/zte/axon7/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/zte/axon7/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/zte/axon7/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zte/axon7/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/zte/axon7/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zte/axon7/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/zte/axon7/proprietary/etc/qcril_db_diff.xml:system/etc/qcril_db_diff.xml \
     vendor/zte/axon7/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/zte/axon7/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zte/axon7/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -384,15 +376,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/zte/axon7/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/zte/axon7/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/zte/axon7/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/zte/axon7/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/zte/axon7/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zte/axon7/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/zte/axon7/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/zte/axon7/proprietary/lib/libmodemapi.so:system/lib/libmodemapi.so \
-    vendor/zte/axon7/proprietary/lib/libvendorutils.so:system/lib/libvendorutils.so \
     vendor/zte/axon7/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/zte/axon7/proprietary/lib/libztecfg.so:system/lib/libztecfg.so \
     vendor/zte/axon7/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/zte/axon7/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/zte/axon7/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -402,23 +390,27 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/zte/axon7/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/zte/axon7/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/zte/axon7/proprietary/lib64/libmodemapi.so:system/lib64/libmodemapi.so \
-    vendor/zte/axon7/proprietary/lib64/libvendorutils.so:system/lib64/libvendorutils.so \
-    vendor/zte/axon7/proprietary/lib64/libztecfg.so:system/lib64/libztecfg.so \
     vendor/zte/axon7/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/zte/axon7/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
+    vendor/zte/axon7/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/zte/axon7/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/zte/axon7/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/zte/axon7/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/zte/axon7/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
+    vendor/zte/axon7/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/zte/axon7/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
+    vendor/zte/axon7/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/zte/axon7/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/zte/axon7/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/zte/axon7/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/zte/axon7/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/zte/axon7/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/zte/axon7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/axon7/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/zte/axon7/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
+    vendor/zte/axon7/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/zte/axon7/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zte/axon7/proprietary/vendor/etc/thermal-engine-8996-normal.conf:system/vendor/etc/thermal-engine-8996-normal.conf \
     vendor/zte/axon7/proprietary/vendor/etc/thermal-engine-8996-perf.conf:system/vendor/etc/thermal-engine-8996-perf.conf \
@@ -481,7 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/zte/axon7/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/zte/axon7/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/zte/axon7/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/zte/axon7/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/zte/axon7/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
@@ -639,6 +630,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
@@ -656,6 +648,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/libril.so:system/vendor/lib64/libril.so \
     vendor/zte/axon7/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/zte/axon7/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/zte/axon7/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
@@ -683,9 +676,18 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
+    vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/zte/axon7/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/zte/axon7/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/zte/axon7/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -694,9 +696,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libthermalclient \
     QtiTelephonyService \
-    datastatusnotification \
-    fastdormancy \
-    shutdownlistener \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
@@ -706,6 +705,7 @@ PRODUCT_PACKAGES += \
     colorservice \
     ims \
     imssettings \
+    qcnvitems \
     qcrilhook
 endif
 

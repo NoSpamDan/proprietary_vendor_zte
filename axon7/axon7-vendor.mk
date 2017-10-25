@@ -330,7 +330,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zte/axon7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/axon7/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/zte/axon7/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/zte/axon7/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zte/axon7/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/axon7/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -417,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zte/axon7/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zte/axon7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/zte/axon7/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/zte/axon7/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/zte/axon7/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/zte/axon7/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -697,7 +697,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
-    TimeService \
     datastatusnotification \
     fastdormancy \
     shutdownlistener \
@@ -706,6 +705,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
+    TimeService \
     colorservice \
     ims \
     imssettings \

@@ -328,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zte/axon7/proprietary/bin/radish:system/bin/radish \
     vendor/zte/axon7/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/zte/axon7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zte/axon7/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/zte/axon7/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zte/axon7/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -381,7 +380,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zte/axon7/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/zte/axon7/proprietary/etc/qcril_db_diff.xml:system/etc/qcril_db_diff.xml \
-    vendor/zte/axon7/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/zte/axon7/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/zte/axon7/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zte/axon7/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -411,9 +409,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/zte/axon7/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/zte/axon7/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zte/axon7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/axon7/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/zte/axon7/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zte/axon7/proprietary/vendor/etc/thermal-engine-8996-normal.conf:system/vendor/etc/thermal-engine-8996-normal.conf \
     vendor/zte/axon7/proprietary/vendor/etc/thermal-engine-8996-perf.conf:system/vendor/etc/thermal-engine-8996-perf.conf \
     vendor/zte/axon7/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \

@@ -382,9 +382,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/zte/axon7/proprietary/etc/qcril_db_diff.xml:system/etc/qcril_db_diff.xml \
     vendor/zte/axon7/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/zte/axon7/proprietary/etc/thermal-engine-8996-normal.conf:system/etc/thermal-engine-8996-normal.conf \
-    vendor/zte/axon7/proprietary/etc/thermal-engine-8996-perf.conf:system/etc/thermal-engine-8996-perf.conf \
-    vendor/zte/axon7/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/zte/axon7/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/zte/axon7/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zte/axon7/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
@@ -417,6 +414,9 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zte/axon7/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zte/axon7/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/zte/axon7/proprietary/vendor/etc/thermal-engine-8996-normal.conf:system/vendor/etc/thermal-engine-8996-normal.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/thermal-engine-8996-perf.conf:system/vendor/etc/thermal-engine-8996-perf.conf \
+    vendor/zte/axon7/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/zte/axon7/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/zte/axon7/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/zte/axon7/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -694,8 +694,8 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libgpustats \
     libsdm-disp-apis \
-    libthermalclient \
     libtime_genoff \
+    libthermalclient \
     QtiTelephonyService \
     datastatusnotification \
     fastdormancy \

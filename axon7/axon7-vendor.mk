@@ -316,8 +316,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/zte/axon7/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zte/axon7/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/zte/axon7/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/zte/axon7/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/zte/axon7/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zte/axon7/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zte/axon7/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -400,6 +398,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/zte/axon7/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zte/axon7/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/zte/axon7/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/zte/axon7/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zte/axon7/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \

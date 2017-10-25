@@ -310,8 +310,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/zte/axon7/proprietary/bin/bt_mac_writer:system/bin/bt_mac_writer \
     vendor/zte/axon7/proprietary/bin/cnd:system/bin/cnd \
-    vendor/zte/axon7/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/zte/axon7/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/zte/axon7/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/zte/axon7/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/zte/axon7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -412,6 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/lib64/libmodemapi.so:system/lib64/libmodemapi.so \
     vendor/zte/axon7/proprietary/lib64/libvendorutils.so:system/lib64/libvendorutils.so \
     vendor/zte/axon7/proprietary/lib64/libztecfg.so:system/lib64/libztecfg.so \
+    vendor/zte/axon7/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/zte/axon7/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/zte/axon7/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \

@@ -312,7 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/bin/cnd:system/bin/cnd \
     vendor/zte/axon7/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/zte/axon7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/zte/axon7/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zte/axon7/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/zte/axon7/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zte/axon7/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -394,7 +393,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/zte/axon7/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/zte/axon7/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
-    vendor/zte/axon7/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/zte/axon7/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/zte/axon7/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zte/axon7/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/zte/axon7/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
@@ -431,7 +430,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/zte/axon7/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/zte/axon7/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/zte/axon7/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/zte/axon7/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/zte/axon7/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/zte/axon7/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
